@@ -64,7 +64,9 @@ function App() {
             {/* <div className="d-flex" style={{ paddingLeft: "10%" }}> */}
 <div>
 <Router>
-  
+  <Link to='/'> 
+  <button type="button" className="btn btn-outline-primary mb-3 btnLogi">Daschboard</button>
+  </Link><br/>
 
 
   <Switch>
